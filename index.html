@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>checkpoint one</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="cart">
+    <div class="cart-item">
+      <img src="https://th.bing.com/th/id/R.3e9b891b7d53e532076bdfcb84c695ae?rik=ozx1bDUCbzwNhw&pid=ImgRaw&r=0" alt="Item 1" class="item-image">
+      <div class="item-details">
+        <p class="item-name">our armani perfum</p>
+        <p class="item-price">$10.00</p>
+        <button class="decrease">-</button>
+        <input type="number" class="quantity" value="1" min="1">
+        <button class="increase">+</button>
+        <button class="remove">Remove</button>
+        <button class="like">&#x2764;</button>
+      </div>
+    </div>
+    <div class="cart-item">
+      <img src="https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwd896661b/images/38364840/large/38364840_x1.jpg" alt="Item 2" class="item-image">
+      <div class="item-details">
+        <p class="item-name">our stornger armany perfum</p>
+        <p class="item-price">$20.00</p>
+        <button class="decrease">-</button>
+        <input type="number" class="quantity" value="1" min="1">
+        <button class="increase">+</button>
+        <button class="remove">Remove</button>
+        <button class="like">&#x2764;</button>
+      </div>
+    </div>
+
+    <p>Total Price: $<span id="total-price">30.00</span></p>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
